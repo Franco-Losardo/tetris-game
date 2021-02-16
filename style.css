@@ -1,0 +1,53 @@
+body{
+    background-color: #eee;
+}
+
+.container{
+    display: flex;
+
+
+}
+
+
+.grid{
+    width: 200px;
+    height: 400px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.tetromino{
+    background-color: blue;
+}
+
+.mini-grid{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    margin-left: 50px ;
+}
+.mini-grid div{
+    height: 20px;
+    width: 20px;
+}
+
+#start_button{
+    outline: none;
+    border: none;
+    background-color: rgb(117, 161, 245);
+    margin: 13px;
+    border-radius: 4px;
+    height: 30px;
+}
+
+#start_button:hover{
+    background-color: rgb(90, 127, 252);
+}
